@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cleanup || Contact Us</title>
+    <link rel="icon" type="image/png" href="img\bukt_icn.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div align="middle">
+        <a href="aboutUs.html">About Us ||</a>
+        <a href="pricing.html">Pricing</a>
+        <a href=".\index.html">CleanUp-Home</a>
+      </div>
+        <h1>
+          <img src="img\water-1761027.jpg" width="100%" alt="water_image" />
+          <span style="text-decoration-line: underline;">Contact Us</span></h1>
+      </header>
+    <main>
+      <div width="100%" align="middle">
+        <h2>
+          <fieldset><legend>CleanUp</legend>
+          <strong>How to contact us:</strong>
+        </fieldset>
+        </h2>
+      </div>
+      <div>
+        <h2>Please enter your information</h2>
+        <form action="index.html">
+          <fieldset>
+            <legend>User Data:</legend>
+            <label for="fname">First Name</label>
+            <input type="text" placeholder="John"><br>
+            <label for="lname">Last Name</label>
+            <input type="text" placeholder="Doe"><br>
+            <label for="PhNumber">Phone Number</label>
+            <input type="number" placeholder="555-555-5555"><br>
+            <label for="Email">Email address</label>
+            <input type="text" placeholder="someone@someplace.ca"><br>
+           </fieldset>
+          </form>
+    </div>
+      <form action="contactUs.html">
+        <fieldset><legend>Time to contact</legend>
+        <p><label for="icr">AM<input type="radio" name="icream" value="false"></input></label></p>
+        <p><label for="icr">PM<input type="radio" name="icream" value="false"></label></p>
+        </fieldset>      
+      <div>
+        <form><fieldset>
+          <legend>Select a Service</legend>
+          <select smphone="select" id="serv">
+          <optgroup label="Indoor"></optgroup>
+          <option value="Laundry">Laundry</option>
+          <option value="Shred Documents">Shred Documents</option>
+          <option value="Sanitize Bathroom">Sanitize Bathroom</option>
+          <optgroup label="Outdoor"></optgroup>
+          <option value="Window Cleaning">Window Cleaning</option>
+          
+          <option value="Garbage Disposal">Garbage Disposal</option>
+        </optgroup>
+        </select>
+        <button type="button" onclick="checkP()">Service</button></fieldset>
+      </form>
+      <script>
+        function checkP() {
+          var phn = document.getElementById("serv").value;
+          alert(phn);
+        }
+      </script>
+      </div>
+      <div>
+        <fieldset> <legend>Services available</legend>
+        <p><input type="checkbox" name="smp" value="Laundry"/>Laundry</p>
+        <p><input type="checkbox" name="smp" value="bath"/>Sanitize Bathroom</p>
+        <p><input type="checkbox" name="smp" value="Shred documents"/>Shred Documents</p>
+        <p><input type="checkbox" name="smp" value="Windows"/>Windows Cleaning</p>
+        <p><input type="checkbox" name="smp" value="Garbage"/>Garbage Disposal</p>
+        </fieldset>
+      </div>
+      <input type="reset" value="Reset">
+  </main>
+    <footer>
+      <div align="middle">
+        <!-- <a href="contactUs.html">Contact Us ||</a> -->
+        <a href="aboutUs.html">About Us ||</a>
+        <a href="pricing.html">Pricing</a>
+        <a href=".\index.html">CleanUp-Home</a>
+      </div>
+    </footer>
+    <!-- <script src="./js/script.js"></script> -->
+  </body>
+</html>
