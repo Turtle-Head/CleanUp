@@ -28,11 +28,18 @@ div{
     flex-direction: inline;
     align-items:center;
 }
-h1,h2,h3,h4{
+h2,h3,h4{
     text-align: justify;
     padding-top: 3%;
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
+}
+h1{
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    align-content:center;
 }
 .hd1{
     display: flex;
