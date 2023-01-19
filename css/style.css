@@ -1,25 +1,78 @@
-style{
-    background-color: aliceblue;
+*{
+    border:0%;
+    margin:0%;
 }
-#ldy{
-    background-color:deepskyblue;
+.nav{
+    display:block;
+    flex-direction: row;
+    text-align: middle;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:italic;
 }
-#wnd{
-    background-color:deepskyblue;
+a{
+    text-decoration: none;
+    color:cornflowerblue;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
-#ppr{
-    background-color:greenyellow;
+a:hover{
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
 }
-#gbg{
-    background-color:greenyellow;
+div{
+    display:flex;
+    text-align: center;
+    flex-direction: inline;
+    align-items:center;
 }
-#bth{
-    background-color:ghostwhite;
-}
-body{
-    background-color: aliceblue;
+h1,h2,h3,h4{
+    text-align: justify;
+    padding-top: 3%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
 }
 .hd1{
-    background-color: aliceblue;
-    color:darkslateblue
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    display: flex;
+    border-width: 1px;
+    border-color:cornflowerblue;
+    fill-opacity: 50%;
+    color:black;
+}
+tbody{
+    background-color:lightblue;
+    padding:20px;
+    /* spacing:15px; */
+}   
+table, th, td {
+    border: 1px solid rgb(58, 144, 170);
+    border-collapse: collapse;
+    padding:20px;
+}
+.list{
+    color:cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-optical-sizing: 3em;
+}
+.mroom{
+    padding-top: 5%;
+    background-color: blue;
+    padding-bottom: 5%;
+    width:100%;
+    margin:0%;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:medium;
+    text-align:justify;
+    font-optical-sizing: 3em;
+    color:darkslateblue;
 }
