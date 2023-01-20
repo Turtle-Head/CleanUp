@@ -84,3 +84,14 @@ p{
     font-optical-sizing: 3em;
     color:darkslateblue;
 }
+#tpr{
+    display: flexbox;
+    flex-direction: column;
+    align-content: center;
+}
+.ep2{
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
