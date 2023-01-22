@@ -19,7 +19,6 @@
       <div class="nav mroom">
         <a href="contactUs.html">  ContactUs  </a>
         <a href="aboutUs.html">  AboutUs  </a>
-        <a href="table.html">  Pricing</a>
       </div>
       <div class="nav">
         <h1 class="nav">
@@ -51,13 +50,18 @@
     </main>
     <footer>
       <h3 class="hd1 list">
-        <ul>
-          <li>Dry-cleaning service</li>
-          <li>Window Cleaning</li>
-          <li>Paper Shredding</li>
-          <li>Garbage bin rental</li>
-          <li>Sanitize Bathrooms</li>
-        </ul>
+        <div class="service">
+          <div class="vis">Dry-cleaning service</div>
+          <div class="hide">$100 per item same day service</div>
+          <div class="vis">Window Cleaning</div>
+          <div class="hide">Drone cleaning $5000 per building</div>
+          <div class="vis">Paper Shredding</div>
+          <div class="hide">Paper pickup weekly for shredding $1000 per pickup</div>
+          <div class="vis">Garbage bin rental</div>
+          <div class="hide">Bin rental $800 per month</div>
+          <div class="vis">Sanitize Bathrooms</div>
+          <div class="hide">Daily cleaning $9000 per month</div>
+        </div>
       
         <p>
           <video width="100%" controls>
@@ -71,6 +75,27 @@
         <a href="aboutUs.html">  AboutUs  </a>
         <a href="table.html">  Pricing  </a>
       </div>
+      <!-- Javascript for dropdowns -->
+<script>
+  /* When the user hovers over the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
+  </script> 
+  <!-- End of Javascript -->
+  
     </footer>
     </body>
 </html>
+
