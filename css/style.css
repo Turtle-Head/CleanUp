@@ -38,6 +38,7 @@ h1,h2,h3,h4{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color:ghostwhite;
 }
 .button{
     display: flex;
@@ -93,6 +94,16 @@ p{
     display:flex;
     flex-direction: row;
     align-items:inline;
+    background-color: ghostwhite;
+    width:98%;
+    justify-content: center;
+    margin:2px ghostwhite;
+    padding:2px;
+}
+.ep4{
+  display:flex;
+  text-align: center;
+  justify-content: center;
 }
 .service{
     display:flex;
@@ -148,4 +159,22 @@ p{
   .vis:hover + .hide {
     display: block;
     color: green;
+  }
+  .container{
+    display:flexbox;
+    flex-direction: column;
+    border:solid 3px black;
+  }
+  p{
+    padding:15px;
+  }
+  /* personal information time form */
+  .platform{
+    display: flex;
+    flex-direction:column;
+    margin: 1.5em;
+    padding:15px;
+    background-color:cornflowerblue;
+    outline: blue 4px solid;
+    border: aqua 3px solid;
   }
